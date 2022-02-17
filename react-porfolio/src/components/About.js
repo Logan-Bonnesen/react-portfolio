@@ -7,7 +7,7 @@ function About(props) {
     <div>
       <img className="img-responsive" src={programmerIcon} />
       <p>
-        Hi, I'm Logan and I make things for the Internet.
+        Hi, I'm Logan and I'm learning how to make things for the Internet.
       </p>
     </div>
   );
