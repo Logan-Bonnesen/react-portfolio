@@ -5,7 +5,7 @@ function Contact(props) {
   return (
     <div>
       <h3>Contact</h3>
-      <p>Phone: 602-510-1222</p>
+      <p>Phone: 602-602-1602</p>
       <a href="mailTo:lbonnesen@gmail.com">Email </a>
       <a href="https://github.com/Logan-Bonnesen" target="_blank">
         Github
