@@ -14,6 +14,7 @@ function Projects(props) {
         <Row>
           <Col>
             <h2>Pet Health Record</h2>
+            
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -21,6 +22,9 @@ function Projects(props) {
             >
               <img className="img-responsive" style={{height: "200px", width: "400px"}}src={petRec} />
             </a>
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/eburger939/pet-ehr">GitHub Repo</a>
+            
           </Col>
 
           <Col>
@@ -32,6 +36,8 @@ function Projects(props) {
             >
               <img className="img-responsive" style={{height: "200px", width: "400px"}} src={movieRoulette} />
             </a>
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/Movie-Roulette">GitHub Repo</a>
           </Col>
 
           <Col>
@@ -43,6 +49,8 @@ function Projects(props) {
             >
               <img className="img-responsive" style={{height: "200px", width: "400px"}} src={teamProfileGenerator} />
             </a>
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/Team-Profile-Generator">GitHub Repo</a>
           </Col>
         </Row>
       </Container>
@@ -58,12 +66,18 @@ function Projects(props) {
             >
               <img className="img-responsive" style={{height: "200px", width: "400px"}} src={employeeTracker} />
             </a>
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/Employee-Tracker">GitHub Repo</a>
           </Col>
           <Col>
             <img style={{height: "200px", width: "400px"}} src="https://via.placeholder.com/150" />
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/eburger939/pet-ehr">GitHub Repo</a>
           </Col>
           <Col>
             <img style={{height: "200px", width: "400px"}} src="https://via.placeholder.com/150" />
+            <br></br>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/eburger939/pet-ehr">GitHub Repo</a>
           </Col>
         </Row>
       </Container>
