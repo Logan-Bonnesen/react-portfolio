@@ -4,21 +4,14 @@ import React from "react";
 function Contact(props) {
   return (
     <div>
-      <h3>Contact</h3>
-      <p>Phone: 602-602-1602</p>
-      <a target="_blank" rel="noopener noreferrer" href="mailTo:lbonnesen@gmail.com">Email </a>
-      <br></br>
-      <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen" target="_blank">
-        Github
-      </a>
-      <br></br>
-      <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/logan-bonnesen-333ab257/">
-        LinkedIn
-      </a>
-      <br></br>
-      <a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1HNwZmOgf8xpeJY05dfeIkjEeoDy0hXxJ3Tlvrqv8hLQ/edit?usp=sharing">
-        Resume
-      </a>
+      <form action="https://formsubmit.co/980ffcdcf9e873d5165d009deb26ffff" method="POST">
+     <input type="text" name="name" placeholder="Your name" required></input>
+     <br></br>
+     <input type="email" name="email" placeholder="Your email" required></input>
+     <br></br>
+     <textarea type="text" name="message" placeholder="Your message"required></textarea>
+     <button type="submit">Send</button>
+      </form>
     </div>
   );
 }
