@@ -67,7 +67,6 @@ function NavBar() {
             to="/resume"
           >
             Resume
-            &nbsp;&nbsp;
           </NavLink>
         </li>
       </ul>
