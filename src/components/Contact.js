@@ -4,7 +4,7 @@ import React from "react";
 function Contact(props) {
   return (
     <div>
-      <form action="https://formsubmit.co/980ffcdcf9e873d5165d009deb26ffff" method="POST">
+     <form action="https://formsubmit.co/980ffcdcf9e873d5165d009deb26ffff" method="POST">
      <input type="text" name="name" placeholder="Your name" required></input>
      <br></br>
      <input type="email" name="email" placeholder="Your email" required></input>

@@ -33,7 +33,8 @@ function NavBar() {
             isActive={() => window.location.pathname === "/about"}
             to="/about"
           >
-            About
+            About 
+            &nbsp;&nbsp;
           </NavLink>
         </li>
         <li>
@@ -44,6 +45,7 @@ function NavBar() {
             to="/contact"
           >
             Contact
+            &nbsp;&nbsp;
           </NavLink>
         </li>
         <li>
@@ -54,6 +56,7 @@ function NavBar() {
             to="/projects"
           >
             Projects
+            &nbsp;&nbsp;
           </NavLink>
           </li>
           <li>
@@ -64,6 +67,7 @@ function NavBar() {
             to="/resume"
           >
             Resume
+            &nbsp;&nbsp;
           </NavLink>
         </li>
       </ul>
