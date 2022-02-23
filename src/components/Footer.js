@@ -3,7 +3,7 @@ import React from "react";
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Footer(props) {
   return (
-    <div style= {{backgroundColor: "green"}}>
+    <div style= {{backgroundColor: "aqua"}}>
       
       <a target="_blank" rel="noopener noreferrer" href="mailTo:lbonnesen@gmail.com">Email</a> &nbsp;&nbsp;
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen" target="_blank">

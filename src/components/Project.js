@@ -4,6 +4,8 @@ import petRec from "../img/petRec.png";
 import movieRoulette from "../img/movieRoulette.png";
 import teamProfileGenerator from "../img/teamProfileGenerator.png";
 import employeeTracker from "../img/employeeTracker.png";
+import postmanSocNetApi from "../img/postman-socnet-api.png"
+import noteTaker from "../img/note-taker.png";
 
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Projects(props) {
@@ -70,14 +72,28 @@ function Projects(props) {
             <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/Employee-Tracker">GitHub Repo</a>
           </Col>
           <Col>
-            <img style={{height: "200px", width: "400px"}} src="https://via.placeholder.com/150" />
+          <h2>Social Network API</h2>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://watch.screencastify.com/v/Rul57KPPgYd5PnP7nSgN"
+            >
+              <img className="img-responsive" style={{height: "200px", width: "400px"}} src={postmanSocNetApi} />
+            </a>
             <br></br>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/eburger939/pet-ehr">GitHub Repo</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/social-network-api">GitHub Repo</a>
           </Col>
           <Col>
-            <img style={{height: "200px", width: "400px"}} src="https://via.placeholder.com/150" />
+          <h2>Note Taker</h2>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://fast-beach-19817.herokuapp.com/notes"
+            >
+              <img className="img-responsive" style={{height: "200px", width: "400px"}} src={noteTaker} />
+            </a>
             <br></br>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/eburger939/pet-ehr">GitHub Repo</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Logan-Bonnesen/Note-Taker">GitHub Repo</a>
           </Col>
         </Row>
       </Container>

@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 // import NavBar from './components/Header';
 import NavBar from './components/Navigation';
 import Projects from './components/Project';
+import Resume from './components/Resume'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/about" component={About}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/projects" component={Projects}/>
+          <Route exact path="/resume" component={Resume}/>
           <Route component={About}/>
         </Switch>
         <Footer>

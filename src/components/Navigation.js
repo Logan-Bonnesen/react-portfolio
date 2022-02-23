@@ -5,8 +5,8 @@ import "./Component.css";
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function NavBar() {
   return (
-    <nav style={{ display: "flex", margin: 30 }}>
-      <div style={{ backgroundColor: "white", position: "sticky" }}>
+    <nav style={{backgroundColor: "aqua", display: "flex", margin: 30 }}>
+      <div style={{  position: "sticky" }}>
         <h1
           style={{
             display: "flex",
@@ -54,6 +54,16 @@ function NavBar() {
             to="/projects"
           >
             Projects
+          </NavLink>
+          </li>
+          <li>
+          <NavLink
+            className="headerLink"
+            activeClassName="active"
+            isActive={() => window.location.pathname === "/resume"}
+            to="/resume"
+          >
+            Resume
           </NavLink>
         </li>
       </ul>
